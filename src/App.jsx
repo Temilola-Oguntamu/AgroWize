@@ -1,13 +1,14 @@
 import React from "react";
-import FormNavbar from "./Components/FormNavbar";
+import "./Pages/SignUp.jsx";
+//import FormNavbar from "./Components/FormNavbar";
+//import FormButton from "./Components/FormButton";
+//import MediaBar from "./Components/MediaBar"
+import SignUp from "./Pages/SignUp.jsx";
 
 function App() {
   return (
     <div>
-      <FormNavbar />
-      <div>
-      
-      </div>
+      <SignUp />
     </div>
   );
 }
