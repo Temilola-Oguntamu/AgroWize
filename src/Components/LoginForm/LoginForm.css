@@ -35,7 +35,7 @@ h3 {
   font-size: 2rem;
   font-weight: bold;
 }
-p {
+.welcomeMsg {
   font-family: NunitoSans;
   font-size: 1.5rem;
   font-weight: 600;

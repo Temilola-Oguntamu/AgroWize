@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "./LoginForm.css"
+import MediaBar from "../MediaBar";
+import FormButton from "../FormButton";
 
 const LoginForm = ({onFormSubmit}) => {
   const [username, setUsername] = useState("");
@@ -16,7 +18,7 @@ const LoginForm = ({onFormSubmit}) => {
       <form className="login-form" onFormSubmit={handleSubmit}>
         <div className="welcomeBack">
           <h3>Welcome Back</h3>
-          <p>Glad to see you again!</p>
+          <p className="welcomeMsg">Glad to see you again!</p>
         </div>
         <div className="formContainer">
           <label htmlFor="username">Enter your email:</label>
@@ -39,6 +41,8 @@ const LoginForm = ({onFormSubmit}) => {
             Forgot password?
           </a>
         </div>
+        <FormButton name="Login" />
+        <MediaBar loginText="Login" />
       </form>
     </div>
   );
