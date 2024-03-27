@@ -17,6 +17,22 @@
     background-color: #fc7c0b;
 }
 
+.registerLine .buttonText {
+    width: 103px;
+    height: 19px;
+    flex-grow: 0;
+    margin: 0 10px 0 12px;
+    opacity: 0.95;
+    font-family: NunitoSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6a707c;
+}
 .termsAndConditions {
     width: 462px;
     height: 60px;
@@ -28,6 +44,15 @@
     gap: 16px;
     padding: 0;
     opacity: 0.95;
+    font-family: NunitoSans;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
 }
 
 .termsAndConditions .terms1 .terms2 {
