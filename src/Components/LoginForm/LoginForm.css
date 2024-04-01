@@ -67,3 +67,11 @@ input[type="password"] {
   font-size: 0.875rem;
   font-family: NunitoSans;
 }
+
+.error {
+  color: red;
+}
+
+.input-error {
+  border: 1px solid red;
+}
