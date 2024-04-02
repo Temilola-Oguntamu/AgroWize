@@ -1,15 +1,6 @@
 import React from "react";
 import "./MediaBar.css";
 
-/*const RegisterButton = ({ name }) => {
-    return (
-        <div className="registerButton">
-            <div className="leftLine"></div>
-            <div className="buttonText">{name}</div>
-            <div className="rightLine"></div>
-        </div>
-    );
-}*/
 const MediaBar = ({ registerText, loginText }) => {
     return (
         <div className="mediaBarSection">
@@ -34,7 +25,7 @@ const MediaBar = ({ registerText, loginText }) => {
                     By Signing up, you agree to our <a className="terms2" href="/terms-of-use">Terms of Use</a> and <a className="terms3" href="/privacy-policy">Privacy Policy</a>
                 </p>
                 <p className="terms1">
-                    Already on AgroWize? <a className="terms2" href={loginText}>Log in</a>
+                    Already on AgroWize? <a className="terms2" href={loginText.toLowerCase() }>{loginText}</a>
                 </p>
             </div>
         </div>

@@ -49,13 +49,21 @@ const LoginForm = ({onFormSubmit}) => {
             className={error && !password ? "error" : ""}
             required
           />
+<<<<<<< HEAD
           <span className="error">{error}</span>
           <a href="#" className="forgot-password">
+=======
+          <a href="/forgotPassword" className="forgot-password">
+>>>>>>> 8d3acbf (adding pages updates)
             Forgot password?
           </a>
         </div>
         <FormButton name="Login" />
+<<<<<<< HEAD
         <MediaBar registerText="Or Login with" loginText="Login" />
+=======
+        <MediaBar loginText="Create Account" />
+>>>>>>> 8d3acbf (adding pages updates)
       </form>
     </div>
   );

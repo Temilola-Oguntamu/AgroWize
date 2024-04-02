@@ -66,6 +66,7 @@ input[type="password"] {
   margin-top: 5px;
   font-size: 0.875rem;
   font-family: NunitoSans;
+  color: #f29620;
 }
 
 .error {
